@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}block\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZob{}}Interesting Fact\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+This is important.
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}block\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}alertblock\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZob{}}Cautionary Tale\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+This is really important!
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}alertblock\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

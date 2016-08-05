@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}figure\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}includegraphics}[
+  width=0.5\PYGdefault{k}{\PYGdefaultZbs{}textwidth}]\PYGdefault{n+nb}{\PYGdefaultZob{}}big\PYGdefault{n+nb}{\PYGdefaultZus{}}chick\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}figure\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

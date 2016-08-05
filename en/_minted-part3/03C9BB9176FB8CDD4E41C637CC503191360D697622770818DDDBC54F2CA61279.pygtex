@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}beamer\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}title}\PYGdefault{n+nb}{\PYGdefaultZob{}}Welcome to Beamer\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}author}\PYGdefault{n+nb}{\PYGdefaultZob{}}You\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}institute}\PYGdefault{n+nb}{\PYGdefaultZob{}}Where You\PYGdefaultZsq{}re From\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}date}\PYGdefault{n+nb}{\PYGdefaultZob{}}Date of Presentation\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}frame\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}titlepage} \PYGdefault{c}{\PYGdefaultZpc{} beamer\PYGdefaultZsq{}s \PYGdefaultZbs{}maketitle}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}frame\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

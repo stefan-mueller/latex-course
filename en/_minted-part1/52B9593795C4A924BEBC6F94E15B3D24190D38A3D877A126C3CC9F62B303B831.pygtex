@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{F\PYGdefaultZus{}n }\PYGdefault{o}{=}\PYGdefault{n+nb}{ F\PYGdefaultZus{}n}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+m}{1}\PYGdefault{n+nb}{ }\PYGdefault{o}{+}\PYGdefault{n+nb}{ F\PYGdefaultZus{}n}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+m}{2}\PYGdefault{l+s}{\PYGdefaultZdl{}}     \PYGdefault{c}{\PYGdefaultZpc{} oops!}
+
+\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{F\PYGdefaultZus{}n }\PYGdefault{o}{=}\PYGdefault{n+nb}{ F\PYGdefaultZus{}\PYGdefaultZob{}n}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+m}{1}\PYGdefault{n+nb}{\PYGdefaultZcb{} }\PYGdefault{o}{+}\PYGdefault{n+nb}{ F\PYGdefaultZus{}\PYGdefaultZob{}n}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+m}{2}\PYGdefault{n+nb}{\PYGdefaultZcb{}}\PYGdefault{l+s}{\PYGdefaultZdl{}} \PYGdefault{c}{\PYGdefaultZpc{} ok!}
+\end{Verbatim}

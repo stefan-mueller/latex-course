@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}columns\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}column\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZob{}}0.4\PYGdefault{k}{\PYGdefaultZbs{}textwidth}\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+    \PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}itemize\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+    \PYGdefault{k}{\PYGdefaultZbs{}item} Use the columns ...
+    \PYGdefault{k}{\PYGdefaultZbs{}item} The argument ...
+    \PYGdefault{k}{\PYGdefaultZbs{}item} See also the ...
+    \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}itemize\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}column\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}column\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZob{}}0.6\PYGdefault{k}{\PYGdefaultZbs{}textwidth}\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+    \PYGdefault{c}{\PYGdefaultZpc{} second column}
+  \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}column\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}columns\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

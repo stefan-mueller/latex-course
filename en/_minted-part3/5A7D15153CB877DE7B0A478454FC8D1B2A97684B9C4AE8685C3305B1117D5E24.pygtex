@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}tabular\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZob{}}lrr\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+Item   \PYGdefault{n+nb}{\PYGdefaultZam{}} Qty \PYGdefault{n+nb}{\PYGdefaultZam{}} Unit \PYGdefault{k}{\PYGdefaultZbs{}\PYGdefaultZdl{}} \PYGdefault{k}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+Widget \PYGdefault{n+nb}{\PYGdefaultZam{}} 1   \PYGdefault{n+nb}{\PYGdefaultZam{}} 199.99  \PYGdefault{k}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+Gadget \PYGdefault{n+nb}{\PYGdefaultZam{}} 2   \PYGdefault{n+nb}{\PYGdefaultZam{}} 399.99  \PYGdefault{k}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+Cable  \PYGdefault{n+nb}{\PYGdefaultZam{}} 3   \PYGdefault{n+nb}{\PYGdefaultZam{}} 19.99   \PYGdefault{k}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}tabular\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

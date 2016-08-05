@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}newcommand}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}alice}\PYGdefault{n+nb}{\PYGdefaultZcb{}}[1]\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}todo}\PYGdefault{n+na}{[color=green!40]}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefaultZsh{}1\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}newcommand}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}bob}\PYGdefault{n+nb}{\PYGdefaultZcb{}}[1]\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}todo}\PYGdefault{n+na}{[color=purple!40]}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefaultZsh{}1\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZcb{}}
+\end{Verbatim}

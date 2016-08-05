@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}article\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}usepackage}\PYGdefault{n+nb}{\PYGdefaultZob{}}graphicx\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+Figure \PYGdefault{k}{\PYGdefaultZbs{}ref}\PYGdefault{n+nb}{\PYGdefaultZob{}}fig:chick\PYGdefault{n+nb}{\PYGdefaultZcb{}} shows \PYGdefault{k}{\PYGdefaultZbs{}ldots}
+
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}figure\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}centering}
+\PYGdefault{k}{\PYGdefaultZbs{}includegraphics}[\PYGdefault{c}{\PYGdefaultZpc{}}
+  width=0.5\PYGdefault{k}{\PYGdefaultZbs{}textwidth}]\PYGdefault{n+nb}{\PYGdefaultZob{}}big\PYGdefault{n+nb}{\PYGdefaultZus{}}chick\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}caption}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}label}\PYGdefault{n+nb}{\PYGdefaultZob{}}fig:chick\PYGdefault{n+nb}{\PYGdefaultZcb{}}Aww\PYGdefault{k}{\PYGdefaultZbs{}ldots}.\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}figure\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

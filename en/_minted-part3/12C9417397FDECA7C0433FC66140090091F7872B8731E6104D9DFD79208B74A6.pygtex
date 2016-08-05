@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}frame\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}frametitle}\PYGdefault{n+nb}{\PYGdefaultZob{}}Presentations with beamer: Frames\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}itemize\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+    \PYGdefault{k}{\PYGdefaultZbs{}item} Use \PYGdefault{k}{\PYGdefaultZbs{}texttt}\PYGdefault{n+nb}{\PYGdefaultZob{}}frametitle\PYGdefault{n+nb}{\PYGdefaultZcb{}} to give the frame a title.
+    \PYGdefault{k}{\PYGdefaultZbs{}item} Then add content to the frame.
+    \PYGdefault{k}{\PYGdefaultZbs{}item} The source for this frame looks like ...
+  \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}itemize\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}frame\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

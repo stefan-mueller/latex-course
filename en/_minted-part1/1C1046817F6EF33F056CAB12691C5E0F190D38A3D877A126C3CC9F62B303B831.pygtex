@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}Omega} = \PYGdefault{k}{\PYGdefaultZbs{}sum}\PYGdefault{n+nb}{\PYGdefaultZus{}\PYGdefaultZob{}}k=1\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZca{}\PYGdefaultZob{}}n\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{k}{\PYGdefaultZbs{}omega}\PYGdefault{n+nb}{\PYGdefaultZus{}}k
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

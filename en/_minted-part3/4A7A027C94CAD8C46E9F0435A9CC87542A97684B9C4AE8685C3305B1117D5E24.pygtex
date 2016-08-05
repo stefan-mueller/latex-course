@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[help lines]} (0,0) grid (3,3);
+\PYGdefault{k}{\PYGdefaultZbs{}node} (h) at (0,0) \PYGdefault{n+nb}{\PYGdefaultZob{}}H\PYGdefault{n+nb}{\PYGdefaultZcb{}};
+\PYGdefault{k}{\PYGdefaultZbs{}node} (x) at (1.5,1.5) \PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nv}{\PYGdefaultZbs{}xi}\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{\PYGdefaultZcb{}};
+\PYGdefault{k}{\PYGdefaultZbs{}node} (t) at (3,0) \PYGdefault{n+nb}{\PYGdefaultZob{}}T\PYGdefault{n+nb}{\PYGdefaultZcb{}};
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[\PYGdefaultZhy{}\PYGdefaultZgt{}]} (x) \PYGdefaultZhy{}\PYGdefaultZhy{} (h);
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[\PYGdefaultZhy{}\PYGdefaultZgt{}]} (x) \PYGdefaultZhy{}\PYGdefaultZhy{} (t);
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

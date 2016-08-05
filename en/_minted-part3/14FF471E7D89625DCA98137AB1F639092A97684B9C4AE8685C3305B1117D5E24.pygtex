@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}[scale=0.5]
+\PYGdefault{c}{\PYGdefaultZpc{} y axis}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[\PYGdefaultZlt{}\PYGdefaultZhy{}\PYGdefaultZgt{}, thick]} (0,2) \PYGdefaultZhy{}\PYGdefaultZhy{} (0,\PYGdefaultZhy{}2);
+\PYGdefault{c}{\PYGdefaultZpc{} x axis}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[ \PYGdefaultZhy{}\PYGdefaultZgt{}, thick]} (0,0) \PYGdefaultZhy{}\PYGdefaultZhy{} (7, 0);
+\PYGdefault{c}{\PYGdefaultZpc{} curves}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[cyan,domain=0:2*pi]}
+  plot (\PYGdefault{k}{\PYGdefaultZbs{}x}, \PYGdefault{n+nb}{\PYGdefaultZob{}}sin(\PYGdefault{k}{\PYGdefaultZbs{}x} r)\PYGdefault{n+nb}{\PYGdefaultZcb{}});
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[magenta,domain=0:2*pi]}
+  plot (\PYGdefault{k}{\PYGdefaultZbs{}x}, \PYGdefault{n+nb}{\PYGdefaultZob{}}cos(\PYGdefault{k}{\PYGdefaultZbs{}x} r)\PYGdefault{n+nb}{\PYGdefaultZcb{}});
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

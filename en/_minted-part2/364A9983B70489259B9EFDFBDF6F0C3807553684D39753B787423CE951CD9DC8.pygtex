@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}newcommand}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}rperf}\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZob{}}\PYGdefault{c}{\PYGdefaultZpc{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}rho}\PYGdefault{n+nb}{\PYGdefaultZus{}\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}text}\PYGdefault{n+nb}{\PYGdefaultZob{}}perf\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZcb{}\PYGdefaultZcb{}}
+\PYGdefault{l+s+sb}{\PYGdefaultZdl{}\PYGdefaultZdl{}}
+\PYGdefault{n+nv}{\PYGdefaultZbs{}rperf}\PYGdefault{n+nb}{ }\PYGdefault{o}{=}\PYGdefault{n+nb}{ \PYGdefaultZob{}}\PYGdefault{n+nv}{\PYGdefaultZbs{}bf}\PYGdefault{n+nb}{ c\PYGdefaultZcb{}\PYGdefaultZsq{}\PYGdefaultZob{}}\PYGdefault{n+nv}{\PYGdefaultZbs{}bf}\PYGdefault{n+nb}{ X\PYGdefaultZcb{} }\PYGdefault{o}{+}\PYGdefault{n+nb}{ }\PYGdefault{n+nv}{\PYGdefaultZbs{}varepsilon}
+\PYGdefault{l+s}{\PYGdefaultZdl{}\PYGdefaultZdl{}}
+\end{Verbatim}

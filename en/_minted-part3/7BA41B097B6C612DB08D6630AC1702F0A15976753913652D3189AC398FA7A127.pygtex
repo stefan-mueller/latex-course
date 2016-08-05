@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}article\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{c}{\PYGdefaultZpc{} preamble}
+\PYGdefault{k}{\PYGdefaultZbs{}title}\PYGdefault{n+nb}{\PYGdefaultZob{}}The Title\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}author}\PYGdefault{n+nb}{\PYGdefaultZob{}}A. Author\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{c}{\PYGdefaultZpc{} body}
+\PYGdefault{k}{\PYGdefaultZbs{}maketitle}
+
+\PYGdefault{k}{\PYGdefaultZbs{}section}\PYGdefault{n+nb}{\PYGdefaultZob{}}Introduction\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+In this paper we \PYGdefault{k}{\PYGdefaultZbs{}ldots}
+
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

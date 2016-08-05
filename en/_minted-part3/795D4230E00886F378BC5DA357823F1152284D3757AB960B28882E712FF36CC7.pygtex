@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}beamer\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{c}{\PYGdefaultZpc{} or Warsaw, Bergen, Madrid, ...}
+\PYGdefault{k}{\PYGdefaultZbs{}usetheme}\PYGdefault{n+nb}{\PYGdefaultZob{}}Darmstadt\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{c}{\PYGdefaultZpc{} or albatross, beaver, crane, ...}
+\PYGdefault{k}{\PYGdefaultZbs{}usecolortheme}\PYGdefault{n+nb}{\PYGdefaultZob{}}beetle\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}title}\PYGdefault{n+nb}{\PYGdefaultZob{}}Theme Demo\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}author}\PYGdefault{n+nb}{\PYGdefaultZob{}}John\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}frame\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}titlepage}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}frame\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

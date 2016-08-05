@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}align*\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+(x+1)\PYGdefault{n+nb}{\PYGdefaultZca{}}3 \PYGdefault{n+nb}{\PYGdefaultZam{}}= (x+1)(x+1)(x+1) \PYGdefault{k}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+        \PYGdefault{n+nb}{\PYGdefaultZam{}}= (x+1)(x\PYGdefault{n+nb}{\PYGdefaultZca{}}2 + 2x + 1) \PYGdefault{k}{\PYGdefaultZbs{}\PYGdefaultZbs{}}
+        \PYGdefault{n+nb}{\PYGdefaultZam{}}= x\PYGdefault{n+nb}{\PYGdefaultZca{}}3 + 3x\PYGdefault{n+nb}{\PYGdefaultZca{}}2 + 3x + 1
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}align*\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

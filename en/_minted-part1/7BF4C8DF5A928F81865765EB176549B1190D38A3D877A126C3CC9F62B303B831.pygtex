@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+The roots of a quadratic equation
+are given by
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+x = \PYGdefault{k}{\PYGdefaultZbs{}frac}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefaultZhy{}b \PYGdefault{k}{\PYGdefaultZbs{}pm} \PYGdefault{k}{\PYGdefaultZbs{}sqrt}\PYGdefault{n+nb}{\PYGdefaultZob{}}b\PYGdefault{n+nb}{\PYGdefaultZca{}}2 \PYGdefaultZhy{} 4ac\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZcb{}}
+         \PYGdefault{n+nb}{\PYGdefaultZob{}}2a\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+where \PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{a}\PYGdefault{l+s}{\PYGdefaultZdl{}}, \PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{b}\PYGdefault{l+s}{\PYGdefaultZdl{}} and \PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{c}\PYGdefault{l+s}{\PYGdefaultZdl{}} are \PYGdefault{k}{\PYGdefaultZbs{}ldots}
+\end{Verbatim}

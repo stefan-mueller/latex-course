@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[help lines]} (0,0) grid (3,3);
+\PYGdefault{c}{\PYGdefaultZpc{} axes}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[\PYGdefaultZlt{}\PYGdefaultZhy{}\PYGdefaultZgt{}, thick, red]}
+  (0,3)\PYGdefaultZhy{}\PYGdefaultZhy{}(0,0)\PYGdefaultZhy{}\PYGdefaultZhy{}(3,0);
+\PYGdefault{c}{\PYGdefaultZpc{} diamond}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[thick, blue, fill=yellow]}
+  (1.5,0.5) \PYGdefaultZhy{}\PYGdefaultZhy{} (2.5,1.5) \PYGdefaultZhy{}\PYGdefaultZhy{}
+  (1.5,2.5) \PYGdefaultZhy{}\PYGdefaultZhy{} (0.5,1.5) \PYGdefaultZhy{}\PYGdefaultZhy{}
+  cycle;
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

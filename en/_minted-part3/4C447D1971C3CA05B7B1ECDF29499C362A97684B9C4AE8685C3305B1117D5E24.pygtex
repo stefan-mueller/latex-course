@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[help lines]} (0,0) grid (3,3);
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[\PYGdefaultZhy{}\PYGdefaultZgt{}]} (0,0) \PYGdefaultZhy{}\PYGdefaultZhy{} (1,1);
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[\PYGdefaultZlt{}\PYGdefaultZhy{}\PYGdefaultZgt{}, thick]} (2,1) \PYGdefaultZhy{}\PYGdefaultZhy{} (1,2);
+\PYGdefault{k}{\PYGdefaultZbs{}draw}\PYGdefault{n+na}{[\PYGdefaultZlt{}\PYGdefaultZhy{}, thick, dashed]} (2,2)\PYGdefaultZhy{}\PYGdefaultZhy{}(3,3);
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}tikzpicture\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

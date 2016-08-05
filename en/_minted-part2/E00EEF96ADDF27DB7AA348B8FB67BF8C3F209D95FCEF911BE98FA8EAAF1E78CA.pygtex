@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}article\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}usepackage}\PYGdefault{n+nb}{\PYGdefaultZob{}}amsmath\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{c}{\PYGdefaultZpc{} for \PYGdefaultZbs{}eqref}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}section}\PYGdefault{n+nb}{\PYGdefaultZob{}}Introduction\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}label}\PYGdefault{n+nb}{\PYGdefaultZob{}}sec:intro\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+In Section \PYGdefault{k}{\PYGdefaultZbs{}ref}\PYGdefault{n+nb}{\PYGdefaultZob{}}sec:method\PYGdefault{n+nb}{\PYGdefaultZcb{}}, we \PYGdefault{k}{\PYGdefaultZbs{}ldots}
+
+\PYGdefault{k}{\PYGdefaultZbs{}section}\PYGdefault{n+nb}{\PYGdefaultZob{}}Method\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}label}\PYGdefault{n+nb}{\PYGdefaultZob{}}sec:method\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}label}\PYGdefault{n+nb}{\PYGdefaultZob{}}eq:euler\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+e\PYGdefault{n+nb}{\PYGdefaultZca{}\PYGdefaultZob{}}i\PYGdefault{k}{\PYGdefaultZbs{}pi}\PYGdefault{n+nb}{\PYGdefaultZcb{}} + 1 = 0
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+By \PYGdefault{k}{\PYGdefaultZbs{}eqref}\PYGdefault{n+nb}{\PYGdefaultZob{}}eq:euler\PYGdefault{n+nb}{\PYGdefaultZcb{}}, we have \PYGdefault{k}{\PYGdefaultZbs{}ldots}
+
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

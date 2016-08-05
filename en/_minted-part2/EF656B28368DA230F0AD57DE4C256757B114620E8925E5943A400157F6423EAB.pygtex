@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}article\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}usepackage}\PYGdefault{n+nb}{\PYGdefaultZob{}}natbib\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}citet}\PYGdefault{n+nb}{\PYGdefaultZob{}}Brooks1997Methodology\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+show that \PYGdefault{k}{\PYGdefaultZbs{}ldots}. Clearly,
+all odd numbers are prime
+\PYGdefault{k}{\PYGdefaultZbs{}citep}\PYGdefault{n+nb}{\PYGdefaultZob{}}Jacobson1999Towards\PYGdefault{n+nb}{\PYGdefaultZcb{}}.
+
+\PYGdefault{k}{\PYGdefaultZbs{}bibliography}\PYGdefault{n+nb}{\PYGdefaultZob{}}bib\PYGdefaultZhy{}example\PYGdefault{n+nb}{\PYGdefaultZcb{}} 
+\PYGdefault{c}{\PYGdefaultZpc{} if `bib\PYGdefaultZhy{}example\PYGdefaultZsq{} is the name of}
+\PYGdefault{c}{\PYGdefaultZpc{} your bib file}
+
+\PYGdefault{k}{\PYGdefaultZbs{}bibliographystyle}\PYGdefault{n+nb}{\PYGdefaultZob{}}plainnat\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{c}{\PYGdefaultZpc{} try changing to abbrvnat}
+
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}

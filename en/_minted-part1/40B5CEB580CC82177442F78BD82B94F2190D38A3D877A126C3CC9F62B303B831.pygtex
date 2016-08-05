@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nv}{\PYGdefaultZbs{}mu}\PYGdefault{n+nb}{ }\PYGdefault{o}{=}\PYGdefault{n+nb}{ A e\PYGdefaultZca{}\PYGdefaultZob{}Q}\PYGdefault{o}{/}\PYGdefault{n+nb}{RT\PYGdefaultZcb{}}\PYGdefault{l+s}{\PYGdefaultZdl{}}
+
+\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nv}{\PYGdefaultZbs{}Omega}\PYGdefault{n+nb}{ }\PYGdefault{o}{=}\PYGdefault{n+nb}{ }\PYGdefault{n+nv}{\PYGdefaultZbs{}sum}\PYGdefault{n+nb}{\PYGdefaultZus{}\PYGdefaultZob{}k}\PYGdefault{o}{=}\PYGdefault{l+m}{1}\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZca{}\PYGdefaultZob{}n\PYGdefaultZcb{} }\PYGdefault{n+nv}{\PYGdefaultZbs{}omega}\PYGdefault{n+nb}{\PYGdefaultZus{}k}\PYGdefault{l+s}{\PYGdefaultZdl{}}
+\end{Verbatim}
