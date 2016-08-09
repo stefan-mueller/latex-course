@@ -29,7 +29,7 @@
 \item Eine große und aktive Community
 \end{itemize}
 %
-\item Es ist leistungsfähig --- und Du kannst es erweiteren
+\item Es ist leistungsfähig -- und Du kannst es erweiteren
 \begin{itemize}
 \item Packages für Papers, Presentations, Poster, Lebensläufe, \ldots
 \end{itemize}
@@ -160,7 +160,7 @@ vom letzten Absatz getrennt.
 \item Abstände in der Quelldatei werden im gesetzten Dokument entfernt.
 \begin{exampletwouptiny}
 \LaTeX{}   ist           wirklich 
-extrem hilfreich.
+extrem     hilfreich.
 \end{exampletwouptiny}
 \end{itemize}
 \end{frame}
@@ -168,25 +168,19 @@ extrem hilfreich.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{\insertsubsection{}: Caveats}
+\begin{frame}[fragile]{\insertsubsection{}: Einschränkungen}
 \small
 \begin{itemize}
-\item Quotation marks are a bit tricky: use a backtick \keystroke{\`{}} on the left and an apostrophe \keystroke{\'{}} on the right.
-\begin{exampletwouptiny}
-Single quotes: `text'.
-
-Double quotes: ``text''.
-\end{exampletwouptiny}
-
-\item Some common characters have special meanings in \LaTeX:\\[1ex]
+\item Einige gebräuchliche Zeichen eine besondere Bedeutung in in \LaTeX:\\[1ex]
 \begin{tabular}{cl}
-\keystrokebftt{\%} & percent sign              \\
-\keystrokebftt{\#} & hash (pound / sharp) sign \\
-\keystrokebftt{\&} & ampersand                 \\
-\keystrokebftt{\$} & dollar sign               \\
+\keystrokebftt{\%} & Prozent           \\
+\keystrokebftt{\#} & Raute  \\
+\keystrokebftt{\&} & „Und-Zeichen“                 \\
+\keystrokebftt{\$} & Dollar              \\
 \end{tabular}
-\item If you just type these, you'll get an error. If you want one to appear in
-the output, you have to \emph{escape} it by preceding it with a backslash.
+\item Wenn Du diese Zeichen benutzt, erscheint eine Fehlermeldung. 
+Wenn Du das tatsächliche Symbol nutzen willst, musst Du einen 
+\emph{Gegenschrägstrich} (Backslash) vor das Zeichen setzen. 
 \begin{exampletwoup}
 \$\%\&\#!
 \end{exampletwoup}
