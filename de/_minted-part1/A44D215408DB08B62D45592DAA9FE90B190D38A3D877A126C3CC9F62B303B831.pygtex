@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{c}{\PYGdefaultZpc{} nicht so gut:}
+a und b sind positive Integrale,
+und c = a \PYGdefaultZhy{} b + 1.
+
+
+\PYGdefault{c}{\PYGdefaultZpc{} viel besser:}
+\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{a}\PYGdefault{l+s}{\PYGdefaultZdl{}} und \PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{b}\PYGdefault{l+s}{\PYGdefaultZdl{}} sind positive Integrale,
+und \PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{c }\PYGdefault{o}{=}\PYGdefault{n+nb}{ a }\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n+nb}{ b }\PYGdefault{o}{+}\PYGdefault{n+nb}{ }\PYGdefault{l+m}{1}\PYGdefault{l+s}{\PYGdefaultZdl{}}.
+\end{Verbatim}

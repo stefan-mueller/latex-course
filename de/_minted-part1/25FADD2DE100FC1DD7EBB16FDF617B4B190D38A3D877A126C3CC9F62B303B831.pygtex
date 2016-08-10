@@ -1,8 +1,8 @@
 \begin{Verbatim}[commandchars=\\\{\}]
-\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{c}{\PYGdefaultZpc{} bad!}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{c}{\PYGdefaultZpc{} Schlecht!}
  min\PYGdefault{n+nb}{\PYGdefaultZus{}\PYGdefaultZob{}}x,y\PYGdefault{n+nb}{\PYGdefaultZcb{}} (1\PYGdefaultZhy{}x)\PYGdefault{n+nb}{\PYGdefaultZca{}}2 + 100(y\PYGdefaultZhy{}x\PYGdefault{n+nb}{\PYGdefaultZca{}}2)\PYGdefault{n+nb}{\PYGdefaultZca{}}2
 \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}}
-\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{c}{\PYGdefaultZpc{} good!}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{c}{\PYGdefaultZpc{} Gut!}
 \PYGdefault{k}{\PYGdefaultZbs{}min}\PYGdefault{n+nb}{\PYGdefaultZus{}\PYGdefaultZob{}}x,y\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZob{}}(1\PYGdefaultZhy{}x)\PYGdefault{n+nb}{\PYGdefaultZca{}}2 + 100(y\PYGdefaultZhy{}x\PYGdefault{n+nb}{\PYGdefaultZca{}}2)\PYGdefault{n+nb}{\PYGdefaultZca{}}2\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation*\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 \end{Verbatim}

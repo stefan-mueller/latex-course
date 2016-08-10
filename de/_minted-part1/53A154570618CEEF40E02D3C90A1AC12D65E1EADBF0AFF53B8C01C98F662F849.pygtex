@@ -1,7 +1,7 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}article\PYGdefault{n+nb}{\PYGdefaultZcb{}}
-\PYGdefault{k}{\PYGdefaultZbs{}usepackage}\PYGdefault{n+nb}{\PYGdefaultZob{}}amsmath\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{c}{\PYGdefaultZpc{} preamble}
+\PYGdefault{k}{\PYGdefaultZbs{}usepackage}\PYGdefault{n+nb}{\PYGdefaultZob{}}amsmath\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{c}{\PYGdefaultZpc{} Präambel}
 \PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
-\PYGdefault{c}{\PYGdefaultZpc{} now we can use commands from amsmath here...}
+\PYGdefault{c}{\PYGdefaultZpc{} Nun können wir die Befehle von amsmath hier nutzen}
 \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 \end{Verbatim}

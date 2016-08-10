@@ -179,9 +179,8 @@ extrem     hilfreich.
 \keystrokebftt{\$} & Dollar              \\
 \end{tabular}
 \item Wenn Du diese Zeichen benutzt, erscheint eine Fehlermeldung. 
-Wenn Du das Zeichen tatsächlich nu
-If you just type these, you'll get an error. If you want one to appear in
-the output, you have to \emph{escape} it by preceding it with a backslash.
+Wenn Du das tatsächliche Symbol nutzen willst, musst Du einen 
+\emph{Gegenschrägstrich} (Backslash) vor das Zeichen setzen. 
 \begin{exampletwoup}
 \$\%\&\#!
 \end{exampletwoup}
@@ -191,22 +190,18 @@ the output, you have to \emph{escape} it by preceding it with a backslash.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Handling Errors}
+\begin{frame}[fragile]{Fehler beheben}
 \begin{itemize}
-\item \LaTeX{} can get confused when it is trying to compile your document. If
-it does, it stops with an error, which you must fix before it will produce
-any output.
-\item For example, if you misspell \cmdbs{emph} as \cmdbs{meph}, \LaTeX{} will
-stop with an ``undefined control sequence'' error, because ``meph'' is not
-one of the commands it knows.
+\item \LaTeX{} kann unübersichtlich werden, wenn es Dein Dokument kompiliert.
+Falls es einen Fehler meldet, musst Du diesen beheben, bevor das Dokument erstellt werden kann. 
+\item Zum Beispiel, wenn Du \cmdbs{emph} statt \cmdbs{meph} schreibst, \LaTeX{} wird mit dem Fehler
+ ``undefined control sequence'' stoppen, da ``meph'' kein gültiger Befehl ist.
 \end{itemize}
-\begin{block}{Advice on Errors}
+\begin{block}{Empfehlungen zur Fehlerbehebung}
 \begin{enumerate}
-\item Don't panic! Errors happen.
-\item Fix them as soon as they arise --- if what you just typed caused an error,
-you can start your debugging there.
-\item If there are multiple errors, start with the first one --- the cause may
-even be above it.
+\item Keine Panik! Fehler passieren.
+\item Behebe sie umgehend -- falls der Fehler durch Deine letzten Schritte aufgetreten ist, starte dort mit der Fehlersuche.  
+\item Falls mehrere Fehler gemeldet werden, beginne mit dem ersten.
 \end{enumerate}
 \end{block}
 \end{frame}
@@ -214,52 +209,48 @@ even be above it.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Typesetting Exercise 1}
+\begin{frame}[fragile]{Typesetting-Übung 1}
 
-\begin{block}{Typeset this in \LaTeX:
-\footnote{\url{http://en.wikipedia.org/wiki/Economy_of_the_United_States}}}
-In March 2006, Congress raised that ceiling an additional \$0.79 trillion to
-\$8.97 trillion, which is approximately 68\% of GDP. As of October 4, 2008, the
-``Emergency Economic Stabilization Act of 2008'' raised the current debt ceiling
-to \$11.3 trillion.
+\begin{block}{Schreibe und setzte den folgenden Text in \LaTeX:\footnote{\url{https://de.wikipedia.org/wiki/Wirtschaft_der_Vereinigten_Staaten}}}
+1982 wuchs das Bruttoinlandsprodukt um zwei Prozent; im Laufe der achtjährigen Amtszeit Reagans wuchs es um 31\%. Während Präsident Bill Clintons Amtszeit wuchs das BIP noch einmal um 38\%. Zum Ende seiner Amtszeit bemaß sich die gesamtwirtschaftliche Produktion auf 9,8 \$ US-Dollar.
 \end{block}
 \vskip 2ex
 \begin{center}
 \fbox{\href{\wlnewdoc{basics-exercise-1.tex}}{%
-Click to open this exercise in \wllogo{}}}
+Klicke hier, um die Übung in \wllogo{} zu öffnen}}
 \end{center}
 
 \begin{itemize}
-\item Hint: watch out for characters with special meanings!
-\item Once you've tried,
+\item Hinweis: Überprüfe Zeichen mit besonderer Bedeutung!
+\item Nachdem Du die Übung beendet hast, 
 \fbox{\href{\wlnewdoc{basics-exercise-1-solution.tex}}{%
-click here to see my solution}}.
+klicke hier für mein Lösung}}.
 \end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Typesetting Mathematics}
-\begin{frame}[fragile]{\insertsubsection{}: Dollar Signs}
+\subsection{Mathematische Zeichen, Symbole und Gleichungen}
+\begin{frame}[fragile]{\insertsubsection{}: Dollar-Zeichen}
 \begin{itemize}
-\item Why are dollar signs \keystrokebftt{\$} special? We use them to mark mathematics in text.\\[1ex]
+\item Warum sind Dollar-Zeichen \keystrokebftt{\$} besonders? Wir nutzen sie, um Mathematik im Text zu setzen.\\[1ex]
 \begin{exampletwouptiny}
-% not so good:
-Let a and b be distinct positive
-integers, and let c = a - b + 1.
+% nicht so gut:
+a und b sind positive Integrale, 
+und c = a - b + 1.
 
-% much better:
-Let $a$ and $b$ be distinct positive
-integers, and let $c = a - b + 1$.
+
+% viel besser:
+$a$ und $b$ sind positive Integrale, 
+und $c = a - b + 1$.
 \end{exampletwouptiny}
-\item Always use dollar signs in pairs --- one to begin the mathematics, and one
-to end it.
-\item \LaTeX{} handles spacing automatically; it ignores your spaces.
+\item Nutze Dollar-Zeichen immer (!) vor und nach dem mathematischen Ausdruck.
+\item \LaTeX{} handhabt Leerzeichen automatisch; es ignoriert Deine Leerzeichen.
 \begin{exampletwouptiny}
-Let $y=mx+b$ be \ldots
+Lasse $y=mx+b$ sein\ldots
 
-Let $y = m x + b$ be \ldots
+Lasse $y = m x + b$ sein\ldots
 \end{exampletwouptiny}
 \end{itemize}
 \end{frame}
@@ -269,22 +260,21 @@ Let $y = m x + b$ be \ldots
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{\insertsubsection{}: Notation}
 \begin{itemize}
-\item Use caret \keystrokebftt{\^} for superscripts and underscore \keystrokebftt{\_} for subscripts.
+\item Nutze Einschaltungszeichen \keystrokebftt{\^} für hochgestellte Zeichen und Unterstriche  \keystrokebftt{\_} for tiefgestellte Zeichen.
 \begin{exampletwouptiny}
 $y = c_2 x^2 + c_1 x + c_0$
 \end{exampletwouptiny}
 \vskip 2ex
 
-\item Use curly braces \keystrokebftt{\{} \keystrokebftt{\}} to group
-superscripts and subscripts.
+\item Nutze geschwungene Klammern \keystrokebftt{\{} \keystrokebftt{\}}, um  den Bereich für hoch- und tiefgestellte Zeichen zu definieren.
 \begin{exampletwouptiny}
-$F_n = F_n-1 + F_n-2$     % oops!
+$F_n = F_n-1 + F_n-2$     % Hups!
 
-$F_n = F_{n-1} + F_{n-2}$ % ok!
+$F_n = F_{n-1} + F_{n-2}$ % OK!
 \end{exampletwouptiny}
 \vskip 2ex
 
-\item There are commands for Greek letters and common notation.
+\item Es gibt Befehle für griechische Buchstaben und gebräuchliche Notation.
 \begin{exampletwouptiny}
 $\mu = A e^{Q/RT}$
 
@@ -296,48 +286,48 @@ $\Omega = \sum_{k=1}^{n} \omega_k$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{\insertsubsection{}: Displayed Equations}
+\begin{frame}[fragile]{\insertsubsection{}: Gleichungen}
 \begin{itemize}
-\item If it's big and scary, \emph{display} it on its own line using
-\cmdbegin{equation} and \cmdend{equation}.\\[2ex]
+\item Gleichungen können in einer eigenen Umgebung gesetzt werden, in dem Du 
+\cmdbegin{equation} und \cmdend{equation} nutzt.\\[2ex]
+
 \begin{exampletwouptiny}
-The roots of a quadratic equation
-are given by
+Die Wurzel der quadratischen Gleichung 
+ist gegeben durch
 \begin{equation}
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}
          {2a}
 \end{equation}
-where $a$, $b$ and $c$ are \ldots
+wo $a$, $b$ und $c$ sind\ldots
 \end{exampletwouptiny}
 \vskip 1em
-{\scriptsize Caution: \LaTeX{} mostly ignores your spaces in mathematics, but it
-can't handle blank lines in equations --- don't put blank lines in your
-mathematics.}
+{\scriptsize Achtung: \LaTeX{} ignoriert eine Leerzeichen in der Mathematik-Umgebung, 
+aber es kann keine Leerzeilen in Gleichungen händeln -- also keine leeren Zeilen in die Gleichung einfügen.}
 \end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Interlude: Environments}
+\begin{frame}[fragile]{Exkurs: Umgebungen (Environments)}
 \begin{itemize}
-\item \bftt{equation} is an \emph{environment} --- a context.
-\item A command can produce different output in different contexts.
+\item \bftt{equation} ist eine Umgebung (\emph{environment}).
+\item Ein Befehl kann unterschiedliche Outputs in verschiedenen Umgebungen produzieren. 
 \begin{exampletwouptiny}
-We can write
+Wir schreiben im Text 
 $ \Omega = \sum_{k=1}^{n} \omega_k $
-in text, or we can write
+im Text schreiben, oder wir schreiben
 \begin{equation}
   \Omega = \sum_{k=1}^{n} \omega_k
 \end{equation}
-to display it.
+und zeigen es in einer Gleichung an.
 \end{exampletwouptiny}
 \vskip 2ex
-\item Note how the $\Sigma$ is bigger in the \bftt{equation} environment, and
-how the subscripts and superscripts change position, even though we used the
-same commands.
+\item Achte darauf, wie $\Sigma$ ist größer in der \bftt{equation}-Umgebung
+und wie die tief- und hochgestellten Zeichen die Position ändern, obowohl wir
+genau den selben Befehl genutzt haben.
 \vskip 1em
-{\scriptsize In fact, we could have written \bftt{\$...\$} as
+{\scriptsize Wir könnten \bftt{\$...\$} auch schreiben als
 \cmdbegin{math}\bftt{...}\cmdend{math}.}
 \end{itemize}
 \end{frame}
@@ -345,22 +335,22 @@ same commands.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Interlude: Environments}
+\begin{frame}[fragile]{Exkurs: Umgebungen (Environments)}
 \begin{itemize}
-\item The \cmdbs{begin} and \cmdbs{end} commands are used to create many
-different environments.
+\item Die \cmdbs{begin}- und \cmdbs{end}-Befehle werden genutzt, um viele
+verschiedene Umgebungen zu erstellen. 
 \vskip 2ex
 
-\item The \bftt{itemize} and \bftt{enumerate} environments generate lists.
+\item Die \bftt{itemize}- und \bftt{enumerate}-Umgebung erstellt Listen.
 \begin{exampletwouptiny}
-\begin{itemize} % for bullet points
-\item Biscuits
-\item Tea
+\begin{itemize} % für Spiegelstriche
+\item Kekse
+\item Tee
 \end{itemize}
 
-\begin{enumerate} % for numbers
-\item Biscuits
-\item Tea
+\begin{enumerate} % für Nummern
+\item Kekse
+\item Tee
 \end{enumerate}
 \end{exampletwouptiny}
 \end{itemize}
@@ -369,24 +359,22 @@ different environments.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Interlude: Packages}
+\begin{frame}[fragile]{Exkurs: „Packages“}
 
 \begin{itemize}
-\item All of the commands and environments we've used so far are built into
-\LaTeX.
+\item Alle Befehle und Umgebungen, die wir bislang genutzt haben, sind in \LaTeX{} standardmäßig vorhanden.
 
-\item \emph{Packages} are libraries of extra commands and environments. There
-are thousands of freely available packages.
+\item \emph{Packages} sind Dateien mit weiteren Befehlen und Umgebungen. Es gibt tausende frei zugängliche Packages.
 
-\item We have to load each of the packages we want to use with a
-\cmdbs{usepackage} command in the \emph{preamble}.
+\item Wir müssen jedes Package, das wir nutzen, mit dem 
+\cmdbs{usepackage}-Befehl in die Präambel (\emph{preamble}) laden.
 
-\item Example: \bftt{amsmath} from the American Mathematical Society.
+\item Beispiel: \bftt{amsmath} von der American Mathematical Society.
 \begin{minted}[fontsize=\small,frame=single]{latex}
 \documentclass{article}
-\usepackage{amsmath} % preamble
+\usepackage{amsmath} % Präambel
 \begin{document}
-% now we can use commands from amsmath here...
+% Nun können wir die Befehle von amsmath hier nutzen
 \end{document}
 \end{minted}
 \end{itemize}
@@ -395,26 +383,24 @@ are thousands of freely available packages.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{\insertsubsection{}: Examples with \bftt{amsmath}}
+\begin{frame}[fragile]{\insertsubsection{}: Beispiele mit \bftt{amsmath}}
 \begin{itemize}
-\item Use \bftt{equation*} (``equation-star'') for unnumbered equations.
+\item Nutze \bftt{equation*} (``Gleichungsstern'') für nicht-numerierte Gleichungen.
 \begin{exampletwouptiny}
 \begin{equation*}
   \Omega = \sum_{k=1}^{n} \omega_k
 \end{equation*}
 \end{exampletwouptiny}
-\item \LaTeX{} treats adjacent letters as variables multiplied together, which
-is not always what you want. \bftt{amsmath} defines commands for many common
-mathematical operators.
+\item \LaTeX{} behandelt aufeinanderfolgende Buchstaben als Variablen, die multipliziert werden. Das ist jedoch nicht immer gewollt.  \bftt{amsmath} definiert Befehle für viele gebräuchliche mathematisch Operatoren.
 \begin{exampletwouptiny}
-\begin{equation*} % bad!
+\begin{equation*} % Schlecht!
  min_{x,y} (1-x)^2 + 100(y-x^2)^2
 \end{equation*}
-\begin{equation*} % good!
+\begin{equation*} % Gut!
 \min_{x,y}{(1-x)^2 + 100(y-x^2)^2}
 \end{equation*}
 \end{exampletwouptiny}
-\item You can use \cmdbs{operatorname} for others.
+\item Du kannst \cmdbs{operatorname} for andere Operatoren nutzen.
 \begin{exampletwouptiny}
 \begin{equation*}
 \beta_i =
@@ -428,15 +414,15 @@ mathematical operators.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{\insertsubsection{}: Examples with \bftt{amsmath}}
+\begin{frame}[fragile]{\insertsubsection{}: Beispiele mit \bftt{amsmath}}
 \begin{itemize}{\small
-\item Align a sequence of equations at the equals sign
+\item Gleiche eine Sequenz von Gleichungen an das „Gleich-Zeichen“ an, 
+indem Du die \bftt{align*}-Umgebung nutzt.
 \begin{align*}
 (x+1)^3 &= (x+1)(x+1)(x+1) \\
         &= (x+1)(x^2 + 2x + 1) \\
         &= x^3 + 3x^2 + 3x + 1
 \end{align*}
-with the \bftt{align*} environment.
 
 % for whatever reason, this doesn't play well with the twoup environment
 \begin{minted}[fontsize=\small,frame=single]{latex}
@@ -446,10 +432,9 @@ with the \bftt{align*} environment.
         &= x^3 + 3x^2 + 3x + 1
 \end{align*}
 \end{minted}
-\item An ampersand \keystrokebftt{\&} separates the left column (before the
-$=$) from the right column (after the $=$).
-\item A double backslash \keystrokebftt{\bs}\keystrokebftt{\bs} starts a new
-line.
+\item An „Und-Zeichen“ \keystrokebftt{\&} trennt die linke Spalte (vor dem
+$=$) von der rechten Spalte (nach dem $=$).
+\item Mit einem doppelten Gegenschrägstrich \keystrokebftt{\bs}\keystrokebftt{\bs} beginnt einen neue Zeile. 
 }\end{itemize}
 \end{frame}
 
@@ -457,28 +442,27 @@ line.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Typesetting Exercise 2}
+\begin{frame}[fragile]{Typesetting-Übung 1}
 
-\begin{block}{Typeset this in \LaTeX:}
-Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically
-distributed random variables with $\operatorname{E}[X_i] = \mu$ and
-$\operatorname{Var}[X_i] = \sigma^2 < \infty$, and let
+\begin{block}{Schreibe/setze das folgende in \LaTeX:}
+Lasse $X_1, X_2, \ldots, X_n$ eine Sequenz von unabhängigen und identisch verteilten zufälligen Variablen mit  $\operatorname{E}[X_i] = \mu$ und 
+$\operatorname{Var}[X_i] = \sigma^2 < \infty$ sein, und lasse
 \begin{equation*}
 S_n = \frac{1}{n}\sum_{i}^{n} X_i
 \end{equation*}
-denote their mean. Then as $n$ approaches infinity, the random variables
-$\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $N(0, \sigma^2)$.
+deren Mittelwert darstellen. Wenn sich $n$ der Unendlichkeit annähert, folgen die zufälligen Variablen 
+$\sqrt{n}(S_n - \mu)$ einer Normalverteilung mit $N(0, \sigma^2)$.
 \end{block}
 \vskip 2ex
 \begin{center}
 \fbox{\href{\wlnewdoc{basics-exercise-2.tex}}{%
-Click to open this exercise in \wllogo{}}}
+Klicke hier, um ein Beispiel-Dokument in \wllogo{} zu öffnen}}
 \end{center}
 \begin{itemize}
-\item Hint: the command for $\infty$ is \cmdbs{infty}.
-\item Once you've tried,
+\item Hinweis: der Befehl für $\infty$ ist \cmdbs{infty}.
+\item Nachdem Du die Übung beendet hast, 
 \fbox{\href{\wlnewdoc{basics-exercise-2-solution.tex}}{%
-click here to see my solution}}.
+klicke hier für meine Lösung}}.
 \end{itemize}
 \end{frame}
 

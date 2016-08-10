@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+Wir schreiben im Text
+\PYGdefault{l+s}{\PYGdefaultZdl{}}\PYGdefault{n+nb}{ }\PYGdefault{n+nv}{\PYGdefaultZbs{}Omega}\PYGdefault{n+nb}{ }\PYGdefault{o}{=}\PYGdefault{n+nb}{ }\PYGdefault{n+nv}{\PYGdefaultZbs{}sum}\PYGdefault{n+nb}{\PYGdefaultZus{}\PYGdefaultZob{}k}\PYGdefault{o}{=}\PYGdefault{l+m}{1}\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZca{}\PYGdefaultZob{}n\PYGdefaultZcb{} }\PYGdefault{n+nv}{\PYGdefaultZbs{}omega}\PYGdefault{n+nb}{\PYGdefaultZus{}k }\PYGdefault{l+s}{\PYGdefaultZdl{}}
+im Text schreiben, oder wir schreiben
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+  \PYGdefault{k}{\PYGdefaultZbs{}Omega} = \PYGdefault{k}{\PYGdefaultZbs{}sum}\PYGdefault{n+nb}{\PYGdefaultZus{}\PYGdefaultZob{}}k=1\PYGdefault{n+nb}{\PYGdefaultZcb{}\PYGdefaultZca{}\PYGdefaultZob{}}n\PYGdefault{n+nb}{\PYGdefaultZcb{}} \PYGdefault{k}{\PYGdefaultZbs{}omega}\PYGdefault{n+nb}{\PYGdefaultZus{}}k
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}equation\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+und zeigen es in einer Gleichung an.
+\end{Verbatim}
