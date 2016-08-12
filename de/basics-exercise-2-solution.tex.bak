@@ -11,8 +11,8 @@ deren Mittelwert darstellen.
 Wenn sich $n$ der Unendlichkeit annähert, folgen die zufälligen Variablen 
 $\sqrt{n}(S_n - \mu)$ einer Normalverteilung mit $N(0, \sigma^2)$.
 
-% Bonuspunkte: das N für normal  is usually set in a caligraphic
-% font; you can get this using $\mathcal{N}(0, \sigma^2)$.
+% Bonuspunkte: das N für normalverteilt ist n ist normalerweise in kalligrafisch Schrift gesetzt;
+% Du erreichst dies durch $\mathcal{N}(0, \sigma^2)$.
 
 \end{document}
 

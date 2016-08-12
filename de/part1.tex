@@ -31,7 +31,7 @@
 %
 \item Es ist leistungsfähig -- und Du kannst es erweiteren
 \begin{itemize}
-\item Packages für Papers, Presentations, Poster, Lebensläufe, \ldots
+\item Packages für Papers, Präsentationen, Poster, Lebensläufe, \ldots
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -39,11 +39,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Wie funktioniert es?}
+\begin{frame}[fragile]{Wie funktioniert \LaTeX?}
 \begin{itemize}
 \item Schreibe das Dokument in \texttt{plain text} mit \cmd{Befehlen}, die 
-die dern Struktur und Bedeutung definieren. 
-\item Das \texttt{latex} Programm verarbeitetet den Text und die Befehle
+die Struktur und Bedeutung definieren. 
+\item \texttt{latex} verarbeitetet den Text und die Befehle
 und erstellt wundervoll formatierte Dokumente.
 \end{itemize}
 \vskip 2ex
@@ -114,7 +114,7 @@ und erstellt wundervoll formatierte Dokumente.
 \item Befehle starten mit einem \emph{Backslash} \keystrokebftt{\bs}.
 \item Jedes Dokument beginnt mit einem \cmdbs{documentclass}-Befehl.
 \item Ein \emph{Argument} in geschweiften Klammern \keystrokebftt{\{} \keystrokebftt{\}} zeigt \LaTeX{}, 
-welche Art von Dokument es erstellen soll: einen \bftt{article}.
+welche Art von Dokument es erstellen soll: in diesem Fall einen Artikel (\bftt{article}).
 \item Ein Prozentzeichen \keystrokebftt{\%} startet einen \emph{Kommentar} --- \LaTeX{}
 ignoriert den Rest der Zeile.
 \end{itemize}
@@ -126,7 +126,7 @@ ignoriert den Rest der Zeile.
 \begin{frame}[fragile]{\insertsubsection{} mit \wllogo}
 \begin{itemize}
 \item Overleaf ist eine Website zur Erstellung von Dokumenten in \LaTeX.
-\item Es kompiliert Dein \LaTeX{} automatisch und zeigt Dir das Resultat.
+\item Es kompiliert Dein Dokument automatisch und zeigt Dir das Resultat.
 \vskip 2em
 \begin{center}
 \fbox{\href{\wlnewdoc{basics.tex}}{%
@@ -147,7 +147,7 @@ Klicke hier, um ein Beispiel-Dokument in \wllogo{} zu öffnen}}
 \begin{frame}[fragile]{\insertsubsection{}}
 \small
 \begin{itemize}
-\item Tippe Deinen Text zwische \cmdbegin{document} und \cmdend{document}.
+\item Tippe Deinen Text zwischen \cmdbegin{document} und \cmdend{document}.
 \item Meistens kannst Du den Text ganz normal eingeben. 
 \begin{exampletwouptiny}
 En Wort wird durch ein oder 
@@ -171,14 +171,14 @@ extrem     hilfreich.
 \begin{frame}[fragile]{\insertsubsection{}: Einschränkungen}
 \small
 \begin{itemize}
-\item Einige gebräuchliche Zeichen eine besondere Bedeutung in in \LaTeX:\\[1ex]
+\item Einige gebräuchliche Zeichen haben eine besondere Bedeutung in \LaTeX:\\[1ex]
 \begin{tabular}{cl}
 \keystrokebftt{\%} & Prozent           \\
 \keystrokebftt{\#} & Raute  \\
 \keystrokebftt{\&} & „Und-Zeichen“                 \\
 \keystrokebftt{\$} & Dollar              \\
 \end{tabular}
-\item Wenn Du diese Zeichen benutzt, erscheint eine Fehlermeldung. 
+\item Wenn Du diese Zeichen benutzt, erscheint womöglich eine Fehlermeldung. 
 Wenn Du das tatsächliche Symbol nutzen willst, musst Du einen 
 \emph{Gegenschrägstrich} (Backslash) vor das Zeichen setzen. 
 \begin{exampletwoup}
@@ -194,7 +194,7 @@ Wenn Du das tatsächliche Symbol nutzen willst, musst Du einen
 \begin{itemize}
 \item \LaTeX{} kann unübersichtlich werden, wenn es Dein Dokument kompiliert.
 Falls es einen Fehler meldet, musst Du diesen beheben, bevor das Dokument erstellt werden kann. 
-\item Zum Beispiel, wenn Du \cmdbs{emph} statt \cmdbs{meph} schreibst, \LaTeX{} wird mit dem Fehler
+\item Zum Beispiel, wenn Du \cmdbs{emph} statt \cmdbs{meph} schreibst, wird \LaTeX{} mit dem Fehler
  ``undefined control sequence'' stoppen, da ``meph'' kein gültiger Befehl ist.
 \end{itemize}
 \begin{block}{Empfehlungen zur Fehlerbehebung}
@@ -212,7 +212,7 @@ Falls es einen Fehler meldet, musst Du diesen beheben, bevor das Dokument erstel
 \begin{frame}[fragile]{Typesetting-Übung 1}
 
 \begin{block}{Schreibe und setzte den folgenden Text in \LaTeX:\footnote{\url{https://de.wikipedia.org/wiki/Wirtschaft_der_Vereinigten_Staaten}}}
-1982 wuchs das Bruttoinlandsprodukt um zwei Prozent; im Laufe der achtjährigen Amtszeit Reagans wuchs es um 31\%. Während Präsident Bill Clintons Amtszeit wuchs das BIP noch einmal um 38\%. Zum Ende seiner Amtszeit bemaß sich die gesamtwirtschaftliche Produktion auf 9,8 \$ US-Dollar.
+1982 wuchs das Bruttoinlandsprodukt um zwei Prozent; im Laufe der achtjährigen Amtszeit Reagans wuchs es um 31\%. Während Präsident Bill Clintons Amtszeit wuchs das BIP noch einmal um 38\%. Zum Ende seiner Amtszeit bemaß sich die gesamtwirtschaftliche Produktion auf 9,8 Billionen US-\$.
 \end{block}
 \vskip 2ex
 \begin{center}
@@ -288,7 +288,7 @@ $\Omega = \sum_{k=1}^{n} \omega_k$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{\insertsubsection{}: Gleichungen}
 \begin{itemize}
-\item Gleichungen können in einer eigenen Umgebung gesetzt werden, in dem Du 
+\item Gleichungen können in einer eigenen Umgebung gesetzt werden, indem Du 
 \cmdbegin{equation} und \cmdend{equation} nutzt.\\[2ex]
 
 \begin{exampletwouptiny}
@@ -301,7 +301,7 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}
 wo $a$, $b$ und $c$ sind\ldots
 \end{exampletwouptiny}
 \vskip 1em
-{\scriptsize Achtung: \LaTeX{} ignoriert eine Leerzeichen in der Mathematik-Umgebung, 
+{\scriptsize Achtung: \LaTeX{} ignoriert Leerzeichen in der Mathematik-Umgebung, 
 aber es kann keine Leerzeilen in Gleichungen händeln -- also keine leeren Zeilen in die Gleichung einfügen.}
 \end{itemize}
 \end{frame}
@@ -312,7 +312,7 @@ aber es kann keine Leerzeilen in Gleichungen händeln -- also keine leeren Zeile
 \begin{frame}[fragile]{Exkurs: Umgebungen (Environments)}
 \begin{itemize}
 \item \bftt{equation} ist eine Umgebung (\emph{environment}).
-\item Ein Befehl kann unterschiedliche Outputs in verschiedenen Umgebungen produzieren. 
+\item Ein Befehl kann verschiedene Outputs je nach Umgebung produzieren. 
 \begin{exampletwouptiny}
 Wir schreiben im Text 
 $ \Omega = \sum_{k=1}^{n} \omega_k $
@@ -323,8 +323,8 @@ im Text schreiben, oder wir schreiben
 und zeigen es in einer Gleichung an.
 \end{exampletwouptiny}
 \vskip 2ex
-\item Achte darauf, wie $\Sigma$ ist größer in der \bftt{equation}-Umgebung
-und wie die tief- und hochgestellten Zeichen die Position ändern, obowohl wir
+\item Achte darauf, wie $\Sigma$ größer in der \bftt{equation}-Umgebung
+ist und wie die tief- und hochgestellten Zeichen die Position ändern, obowohl wir
 genau den selben Befehl genutzt haben.
 \vskip 1em
 {\scriptsize Wir könnten \bftt{\$...\$} auch schreiben als
@@ -337,8 +337,7 @@ genau den selben Befehl genutzt haben.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{Exkurs: Umgebungen (Environments)}
 \begin{itemize}
-\item Die \cmdbs{begin}- und \cmdbs{end}-Befehle werden genutzt, um viele
-verschiedene Umgebungen zu erstellen. 
+\item Die \cmdbs{begin}- und \cmdbs{end}-Befehle werden genutzt, um Umgebungen zu definieren. 
 \vskip 2ex
 
 \item Die \bftt{itemize}- und \bftt{enumerate}-Umgebungen erstellen Listen.
@@ -473,15 +472,15 @@ klicke hier für meine Lösung}}.
 \begin{itemize}
 \item Glückwunsch! Du hast bereits gelernt wie man\ldots
 \begin{itemize}
-\item text in \LaTeX{} setzt.
-\item einige Befehle nutzt.
+\item Text in \LaTeX{} setzt.
+\item einige gebräuchliche Befehle nutzt.
 \item Fehler behebt, wenn sie auftreten.
 \item wunderschöne mathematische Gleichungen setzt.
 \item verschiedenen Umgebungen nutzt.
 \item packages lädt.
 \end{itemize}
 \item Das ist unglaublich!
-\item In Teil 2 lernen wir, wie man \LaTeX{}  nutzt, um strukturierte Dokumente Kapiteln, Querverweisen, Grafiken, Tabellen und einem Literaturverzeichnis erstellt.
+\item In Teil 2 lernen wir, wie man \LaTeX{}  nutzt, um in strukturierten Dokumente Kapitel, Querverweise, Grafiken, Tabellen und ein Literaturverzeichnis erstellt.
 \end{itemize}
 \end{frame}
 
