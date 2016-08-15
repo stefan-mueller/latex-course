@@ -31,7 +31,7 @@
 %
 \item Es ist leistungsfähig -- und Du kannst es erweiteren
 \begin{itemize}
-\item Packages für Papers, Präsentationen, Poster, Lebensläufe, \ldots
+\item Erweiterungen für Papers, Präsentationen, Poster, Lebensläufe, \ldots
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -48,14 +48,14 @@ und erstellt wundervoll formatierte Dokumente.
 \end{itemize}
 \vskip 2ex
 \begin{center}
-\begin{minted}[frame=single]{latex}
-\LaTeX ist ein wirklich \emph{hilfreiches} Programm.
+\begin{minted}[frame=single]{LaTeX}
+\LaTeX{} ist ein \emph{hilfreiches} Programm.
 \end{minted}
 \vskip 2ex
 \tikz\node[single arrow,fill=gray,font=\ttfamily\bfseries,%
   rotate=270,xshift=-1em]{latex};
 \vskip 2ex
-\fbox{\LaTeX ist ein wirklich \emph{hilfreiches} Programm.}
+\fbox{\LaTeX{} ist ein \emph{hilfreiches} Programm.}
 \end{center}
 \end{frame}
 
@@ -194,7 +194,7 @@ Wenn Du das tatsächliche Symbol nutzen willst, musst Du einen
 \begin{itemize}
 \item \LaTeX{} kann unübersichtlich werden, wenn es Dein Dokument kompiliert.
 Falls es einen Fehler meldet, musst Du diesen beheben, bevor das Dokument erstellt werden kann. 
-\item Zum Beispiel, wenn Du \cmdbs{emph} statt \cmdbs{meph} schreibst, wird \LaTeX{} mit dem Fehler
+\item Zum Beispiel, wenn Du \cmdbs{meph} statt \cmdbs{emph} schreibst, wird \LaTeX{} mit dem Fehler
  ``undefined control sequence'' stoppen, da ``meph'' kein gültiger Befehl ist.
 \end{itemize}
 \begin{block}{Empfehlungen zur Fehlerbehebung}
@@ -260,7 +260,7 @@ Lasse $y = m x + b$ sein\ldots
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{\insertsubsection{}: Notation}
 \begin{itemize}
-\item Nutze Einschaltungszeichen \keystrokebftt{\^} für hochgestellte Zeichen und Unterstriche  \keystrokebftt{\_} for tiefgestellte Zeichen.
+\item Nutze Circumflex \keystrokebftt{\^} für hochgestellte Zeichen und Unterstriche  \keystrokebftt{\_} for tiefgestellte Zeichen.
 \begin{exampletwouptiny}
 $y = c_2 x^2 + c_1 x + c_0$
 \end{exampletwouptiny}
@@ -358,12 +358,12 @@ genau den selben Befehl genutzt haben.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Exkurs: „Packages“}
+\begin{frame}[fragile]{Exkurs: Erweiterungen}
 
 \begin{itemize}
 \item Alle Befehle und Umgebungen, die wir bislang genutzt haben, sind in \LaTeX{} standardmäßig vorhanden.
 
-\item \emph{Packages} sind Dateien mit weiteren Befehlen und Umgebungen. Es gibt tausende frei zugängliche Packages.
+\item \emph{Erweterungen} (\emph{packages}) sind Dateien mit weiteren Befehlen und Umgebungen. Es gibt tausende frei zugängliche Packages.
 
 \item Wir müssen jedes Package, das wir nutzen, mit dem 
 \cmdbs{usepackage}-Befehl in die Präambel (\emph{preamble}) laden.
