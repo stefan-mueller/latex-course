@@ -43,7 +43,7 @@
 \begin{itemize}
 \item Schreibe das Dokument in \texttt{plain text} mit \cmd{Befehlen}, die 
 die Struktur und Bedeutung definieren. 
-\item \texttt{latex} verarbeitetet den Text und die Befehle
+\item \texttt{latex} verarbeitet den Text und die Befehle
 und erstellt wundervoll formatierte Dokumente.
 \end{itemize}
 \vskip 2ex
@@ -51,10 +51,7 @@ und erstellt wundervoll formatierte Dokumente.
 \begin{minted}[frame=single]{LaTeX}
 \LaTeX{} ist ein \emph{hilfreiches} Programm.
 \end{minted}
-\vskip 2ex
-\tikz\node[single arrow,fill=gray,font=\ttfamily\bfseries,%
-  rotate=270,xshift=-1em]{latex};
-\vskip 2ex
+\vskip 2exh
 \fbox{\LaTeX{} ist ein \emph{hilfreiches} Programm.}
 \end{center}
 \end{frame}
@@ -73,7 +70,7 @@ und erstellt wundervoll formatierte Dokumente.
 \vskip 2ex
 \begin{exampletwoup}
 \begin{figure}
-\includegraphics{kuecken}
+\includegraphics{kueken}
 \end{figure}
 \end{exampletwoup}
 \vskip 2ex
@@ -194,8 +191,8 @@ Wenn Du das tatsächliche Symbol nutzen willst, musst Du einen
 \begin{itemize}
 \item \LaTeX{} kann unübersichtlich werden, wenn es Dein Dokument kompiliert.
 Falls es einen Fehler meldet, musst Du diesen beheben, bevor das Dokument erstellt werden kann. 
-\item Zum Beispiel, wenn Du \cmdbs{meph} statt \cmdbs{emph} schreibst, wird \LaTeX{} mit dem Fehler
- ``undefined control sequence'' stoppen, da ``meph'' kein gültiger Befehl ist.
+\item Beispiel: wenn Du \cmdbs{meph} statt \cmdbs{emph} schreibst, wird \LaTeX{} mit dem Fehler
+ „undefined control sequence“ stoppen, da „meph“ kein gültiger Befehl ist.
 \end{itemize}
 \begin{block}{Empfehlungen zur Fehlerbehebung}
 \begin{enumerate}
@@ -479,7 +476,6 @@ klicke hier für meine Lösung}}.
 \item verschiedenen Umgebungen nutzt.
 \item packages lädt.
 \end{itemize}
-\item Das ist unglaublich!
 \item In Teil 2 lernen wir, wie man \LaTeX{}  nutzt, um in strukturierten Dokumente Kapitel, Querverweise, Grafiken, Tabellen und ein Literaturverzeichnis erstellt.
 \end{itemize}
 \end{frame}
