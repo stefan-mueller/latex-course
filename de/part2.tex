@@ -2,7 +2,8 @@
 
 \input{preamble.tex}
 
-\subtitle{Part 2: Structured Documents \& More}
+\subtitle{Teil 2: Strukturierte Dokumente und Mehr \\
+(\href{https://github.com/jdleesmiller/latex-course}{basierend auf den Folien von Dr. John D. Lees-Miller})}
 
 \begin{document}
 
@@ -32,22 +33,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{\insertsection}
 \begin{itemize}
-\item In Part 1, we learned about commands and environments for typesetting text
-and mathematics.
-\item Now, we'll learn about commands and environments for structuring
-documents.
-\item You can try out the new commands in Overleaf:
+\item In Teil 1 haben wir die Befehle und Umgebungen kennen gelernt, um Text und mathematische Formeln zu setzen.
+\item Jetzt lernen wir, wie man mit Befehlen und Umgebungen strukturierte Dokumente erstellt. 
+\item Du kannst (wie in Teil 1) die neuen Befehle in Overleaf ausprobieren: 
 \end{itemize}
 \vskip 2em
 \begin{center}
 \fbox{\href{\wlnewdoc{basics.tex}}{%
-Click here to open the example document in \wllogo{}}}
+Klicke hier, um das Beispiel in \wllogo{} zu öffnen}}
 \\[1ex]\scriptsize{}
-For best results, please use \href{http://www.google.com/chrome}{Google Chrome} or a recent \href{http://www.mozilla.org/en-US/firefox/new/}{FireFox}.
+\href{http://www.google.com/chrome}{Google Chrome} oder eine neuere Version von \href{http://www.mozilla.org/en-US/firefox/new/}{Firefox} garantieren die besten Ergebnisse.
 \end{center}
 \vskip 2ex
 \begin{itemize}
-\item Let's get started!
+\item Auf geht's!
 \end{itemize}
 \end{frame}
 
@@ -57,9 +56,9 @@ For best results, please use \href{http://www.google.com/chrome}{Google Chrome} 
 \subsection{Title and Abstract}
 \begin{frame}[fragile]{\insertsubsection}
 \begin{itemize}{\small
-\item Tell \LaTeX{} the \cmdbs{title} and \cmdbs{author} names in the preamble.
-\item Then use \cmdbs{maketitle} in the document to actually create the title.
-\item Use the \bftt{abstract} environment to make an abstract.
+\item Gib' \LaTeX{} den Titel (\cmdbs{title}) und die Autorennamen (\cmdbs{author}) in der Präambel.
+\item Nutze daraufhin \cmdbs{maketitle} im Dokument, um den Titel zu plazieren und erstellen.
+\item Nutze die \bftt{abstract}-Umgebung, um einen Abstract zu erstellen.
 }\end{itemize}
 \begin{minipage}{0.55\linewidth}
 \inputminted[fontsize=\scriptsize,frame=single,resetmargins]{latex}%

@@ -1,9 +1,9 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}article\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 
-\PYGdefault{k}{\PYGdefaultZbs{}title}\PYGdefault{n+nb}{\PYGdefaultZob{}}The Title\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}title}\PYGdefault{n+nb}{\PYGdefaultZob{}}Der Titel\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 
-\PYGdefault{k}{\PYGdefaultZbs{}author}\PYGdefault{n+nb}{\PYGdefaultZob{}}A. Author\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}author}\PYGdefault{n+nb}{\PYGdefaultZob{}}Max Mustermann\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 
 \PYGdefault{k}{\PYGdefaultZbs{}date}\PYGdefault{n+nb}{\PYGdefaultZob{}}\PYGdefault{k}{\PYGdefaultZbs{}today}\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 
@@ -11,7 +11,7 @@
 \PYGdefault{k}{\PYGdefaultZbs{}maketitle}
 
 \PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}abstract\PYGdefault{n+nb}{\PYGdefaultZcb{}}
-Abstract goes here...
+Hier beginnt der Abstract\PYGdefault{k}{\PYGdefaultZbs{}dots}
 \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}abstract\PYGdefault{n+nb}{\PYGdefaultZcb{}}
 
 \PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
