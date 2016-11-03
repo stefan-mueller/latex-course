@@ -378,13 +378,17 @@ für Beispiele für die meisten dieser Pakete an
 \subsection{\LaTeX{} installieren}
 \begin{frame}{\insertsubsection}
 \begin{itemize}
-\item Um \LaTeX{} auf Deinem Computer zu nutzen, benötigst Du eine \LaTeX{}-Distribution. Eine Distribution beinhaltet ein \bftt{latex}-Programm und (typischerweise) tausende Erweiterungen.
+\item To run \LaTeX{} on your own computer, you'll want to use a \LaTeX{}
+\emph{distribution}. A distribution includes a \bftt{latex} program
+and (typically) several thousand packages.
 \begin{itemize}
-\item Windows: \href{http://miktex.org/}{Mik\TeX} or \href{http://tug.org/texlive/}{\TeX Live}
-\item Linux: \href{http://tug.org/texlive/}{\TeX Live}
-\item Mac: \href{http://tug.org/mactex/}{Mac\TeX}
+\item On Windows: \href{http://miktex.org/}{Mik\TeX} or \href{http://tug.org/texlive/}{\TeX Live}
+\item On Linux: \href{http://tug.org/texlive/}{\TeX Live}
+\item On Mac: \href{http://tug.org/mactex/}{Mac\TeX}
 \end{itemize}
-\item Du benötigst außerdem einen Text-Editor mit \LaTeX{}-Support. Siehe \url{http://en.wikipedia.org/wiki/Comparison_of_TeX_editors} für eine ausführliche Liste.
+\item You'll also want a text editor with \LaTeX{} support. See \url{http://en.wikipedia.org/wiki/Comparison_of_TeX_editors} for a list of (many) options.
+\item You'll also have to know more about how \bftt{latex} and its related tools
+work --- see the resources on the next slide.
 \end{itemize}
 \end{frame}
 

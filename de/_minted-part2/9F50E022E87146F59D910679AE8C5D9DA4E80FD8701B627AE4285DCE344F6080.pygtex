@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{k}{\PYGdefaultZbs{}documentclass}\PYGdefault{n+nb}{\PYGdefaultZob{}}article\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\PYGdefault{k}{\PYGdefaultZbs{}begin}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}section}\PYGdefault{n+nb}{\PYGdefaultZob{}}Einleitung\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+Das Problem hinsichtlich \PYGdefault{k}{\PYGdefaultZbs{}ldots}
+
+\PYGdefault{k}{\PYGdefaultZbs{}section}\PYGdefault{n+nb}{\PYGdefaultZob{}}Methoden\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+Wir analysieren \PYGdefault{k}{\PYGdefaultZbs{}ldots}
+
+\PYGdefault{k}{\PYGdefaultZbs{}subsection}\PYGdefault{n+nb}{\PYGdefaultZob{}}Theorie\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}subsection}\PYGdefault{n+nb}{\PYGdefaultZob{}}Datensammlung\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}section}\PYGdefault{n+nb}{\PYGdefaultZob{}}Resultate\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}section}\PYGdefault{n+nb}{\PYGdefaultZob{}}Schlussbetrachtung\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+
+\PYGdefault{k}{\PYGdefaultZbs{}end}\PYGdefault{n+nb}{\PYGdefaultZob{}}document\PYGdefault{n+nb}{\PYGdefaultZcb{}}
+\end{Verbatim}
